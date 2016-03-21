@@ -1,0 +1,9 @@
+Am realizat o functie de citire care m-a ajutat si la taskul 1 si la taskul 2.
+In taskul 1 dupa ce am creeat matricea de adiacenta si vectorul care contine numarul de vecini ai nodurilor am generat conform formulei matricea M apoi page rangul initial notat PRR pe baza caruia am creeat page rangul fiecarui nod atata timp cat norma(PRR-PR)>eps.
+
+In taskul 2 am creat functia GramSchmidt cu ajutorul careia am intors inversa unei matrici.In prima jumatate este prezentat algoritmul lui GramSchmidt care transforma o matrice A in o matrice superior triunghiulara (R) si o matrice ortogonala (Q) Q*R=A .Apoi am inmultit relatia cu A ^-1 si cu Q^t rezultand A^-1*R=Q^t.De aici aflarea matricei A^-1 se face cu ajutorul algoritmului de rezolvare a sistemului superior triunghiular care este prezentat in a 2 a jumatate a functiei.
+
+Tot in taskul 2 mai este si functia Algebraic in care se apeleaza functia GramSchmidt si se genereaza page rangul algebric.
+
+In taskul 3 am retinut in R1 si R2 page rangul iterativ si cel algebric.Apoi am creat fisierul in care voi scrie ulterior R1 si R2.
+
